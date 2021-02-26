@@ -1,17 +1,28 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-#snakeField{
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    margin: auto;
+#snakeField {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
 }
 
-.item{
-    background-color: lightblue;
-    border: 2px solid blue;
-    height: 50px;
-    width: 10%;
-    border-radius: 5px;
+.item {
+  background-color: lightblue;
+  border: 2px solid blue;
+  height: 50px;
+  width: 10%;
+  border-radius: 5px;
+}
+
+#counter {
+  width: 100px;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: 400;
+  display: block;
+  margin: 2rem auto;
+  border: 2px solid red;
+  text-align: center;
 }
